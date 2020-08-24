@@ -7,7 +7,7 @@
 ![screenshot](./screen_shot.png)
 
 > This project clones the nytimes.com article page interface design.
-> The project includes the header, the form and the footer as it's main features.
+> The project includes the header, the main content and the footer as it's main features.
 
 ## Built With
 
