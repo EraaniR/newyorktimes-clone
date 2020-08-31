@@ -1,0 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: black;
+}
+
+nav {
+  display: grid;
+  grid-template-columns: 300px 1fr 300px;
+}
