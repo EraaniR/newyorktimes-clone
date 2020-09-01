@@ -2,10 +2,139 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: black;
+  font-family: helvetica, arial, sans-serif;
 }
 
 nav {
   display: grid;
-  grid-template-columns: 300px 1fr 300px;
+  grid-template-columns: 30% 40% 30%;
 }
+
+nav > div{
+  display: flex;
+  justify-content: center;
+}
+
+/*  left menu styling */
+nav > div.left-menu{
+  justify-content: flex-start;
+}
+nav > div.left-menu > ul{
+  flex: 1;
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+nav > div.left-menu > ul > li{
+ padding-left: 30px; 
+}
+
+nav > div.left-menu > ul > li.category > a{
+  text-transform: uppercase;
+  font-weight: bolder;
+  color: #000;
+  text-decoration: none;
+}
+
+nav > div.left-menu > ul > li.category > a:hover{
+  text-decoration: underline;
+}
+
+/*  account menu styling */
+
+.account-menu > ul{
+  float:right;
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.account-menu > ul > li{
+  float: right;
+  padding-left: 30px;
+}
+.account-menu > ul > li > a{
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.ny-btn{
+    cursor: pointer;
+    white-space: nowrap;
+    vertical-align: middle;
+    background-color: rgb(86, 123, 149);
+    color: rgb(255, 255, 255);
+    font-size: 11px;
+    line-height: 11px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    border-radius: 3px;
+    transition: all 0.6s ease 0s;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(50, 104, 145);
+    border-image: initial;
+    padding: 11px 12px 8px;
+}
+
+/*  main section styling */
+
+.main-section{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.main-section > .intro{
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-section > .intro > h3{
+  text-align: center;
+  padding: 30px;
+  font-size: 1.8rem;
+  font-style: italic;
+}
+
+.article-image img{
+  width: 100%;
+}
+
+.content{
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+}
+
+.content > .content-header{
+  display: flex;
+  flex-direction: column;
+}
+
+.content > .content-header > .publish-date-social{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.content > .content-header > .publish-date-social > *{
+  flex: 1;
+}
+
+.content > .content-header > .publish-date-social > .social > ul{
+  display: flex;
+  list-style: none;
+  align-items: flex-end;
+}
+
+.content > .content-header > .publish-date-social > .social > ul > li{
+  padding-left: 30px;
+}
+
+
