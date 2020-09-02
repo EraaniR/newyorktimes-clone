@@ -154,3 +154,38 @@ nav > div.left-menu > ul > li.category > a:hover {
   margin-top: 5%;
   color: #353535;
 }
+
+/* Additional Links*/
+
+.additional-links {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 70% 30%;
+}
+
+.separator {
+  background-color: #000;
+  width: 90%;
+  height: 2px;
+  margin: 0 auto;
+}
+
+.additional-links h3 {
+  font-family: helvetica, arial, sans-serif;
+  font-size: 1em;
+  margin: 3% 0 0 %;
+}
+
+.thumbnail-grid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+}
+
+.thumbnail {
+  padding: 5% 0 0 15%;
+}
+
+.thumbnail-img {
+  width: 250px;
+}
