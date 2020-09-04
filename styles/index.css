@@ -214,13 +214,7 @@ nav > div.left-menu > ul > li.category > a:hover {
   border: 2px solid #ccc9c9;
 }
 
-.content
-  > .content-header
-  > .publish-date-social
-  > .social
-  > ul
-  > li
-  > a.icon:hover {
+.content > .content-header > .publish-date-social > .social > ul > li > a.icon:hover {
   background: transparent;
 }
 
@@ -358,12 +352,7 @@ p.time {
 
 .sep-footer {
   height: 3px;
-  background: linear-gradient(
-    90deg,
-    rgba(255, 255, 255, 1) 0%,
-    rgba(91, 91, 91, 0.7259278711484594) 50%,
-    rgba(255, 255, 255, 1) 100%
-  );
+  background: linear-gradient(90deg,rgba(255, 255, 255, 1) 0%,rgba(91, 91, 91, 0.7259278711484594) 50%,rgba(255, 255, 255, 1) 100%);
   border-radius: 20%;
   margin: 3% 5% auto;
 }
