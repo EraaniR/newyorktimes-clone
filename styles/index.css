@@ -361,12 +361,12 @@ p.time {
   margin: 0 auto;
 }
 
+
 .footer-header {
   justify-content: space-between;
 }
 
 .separator-vertical {
-  transform: rotate(90deg);
   width: 2px;
   background-color: #000;
 }
