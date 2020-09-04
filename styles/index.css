@@ -317,8 +317,6 @@ p.caption > .credit {
   margin-top: 10px;
 }
 
-
-
 /* Additional Links */
 
 .additional-links {
@@ -464,7 +462,6 @@ p.time {
   flex: 1;
 }
 
-
 /* text colors */
 
 .text-black {
@@ -480,7 +477,6 @@ p.time {
 .position-absolute {
   position: absolute;
 }
-
 
 /* floating properties */
 
