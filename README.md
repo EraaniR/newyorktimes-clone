@@ -20,36 +20,48 @@
 
 ## Getting Started
 
- To get a local copy up and running follow these simple example steps.
+To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
+
 > Browser
 > Text editor of your choice.
 > npm has to be installed in your system.
 > install linters on your IDE.
 
 ### Setup
-> ``` git clone git@github.com:ojrdev/newyorktimes-clone.git ```
+
+> `git clone git@github.com:ojrdev/newyorktimes-clone.git`
 
 ### Usage
+
 > Open the index.html from your browser.
 
 ### Run tests
-Run ``` npx html-validator-cli --quiet --file index.html ``` to run the validator over the ```index.html``` file.
 
-The ```--quiet``` will only list ```errors```. If you also want to see the warnings use the ```--verbose``` flag instead.
-As an alternative, you can also install the ```html5validator``` using ```pip```:
+Run `npx html-validator-cli --quiet --file index.html` to run the validator over the `index.html` file.
 
-``` 
+The `--quiet` will only list `errors`. If you also want to see the warnings use the `--verbose` flag instead.
+As an alternative, you can also install the `html5validator` using `pip`:
+
+```
 pip install --user html5validator
 html5validator index.html
 ```
+
 ## Authors
 
 👤 **Okusa J. Robert**
+
 - Github: [@ojrdev](https://github.com/ojrdev)
 
+<<<<<<< HEAD
 
+=======
+👤 **Eraani Ruiz**
+
+- Github: [@eraanir](https://github.com/eraanir)
+>>>>>>> 24a73998b98b016187a3ac3e6b68cacfc5a21876
 
 ## 🤝 Contributing
 
