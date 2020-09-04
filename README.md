@@ -55,13 +55,9 @@ html5validator index.html
 
 - Github: [@ojrdev](https://github.com/ojrdev)
 
-<<<<<<< HEAD
-
-=======
 👤 **Eraani Ruiz**
 
 - Github: [@eraanir](https://github.com/eraanir)
->>>>>>> 24a73998b98b016187a3ac3e6b68cacfc5a21876
 
 ## 🤝 Contributing
 
