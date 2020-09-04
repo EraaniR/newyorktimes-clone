@@ -4,7 +4,7 @@
 
 > This is a microverse student project for working with Positioning and Floating Elements
 
-![screenshot](./screen_shot.png)
+![screenshot](./images/screenshot.PNG)
 
 > This project clones the nytimes.com article page interface design.
 > The project includes the header, the main content and the footer as it's main features.
