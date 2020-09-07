@@ -1,0 +1,572 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.navbar {
+  position: fixed;
+  border-bottom: 1px solid #bebbbb;
+  z-index: 9999;
+  background: white;
+}
+
+nav {
+  grid-template-columns: 30% 40% 30%;
+}
+
+a.black-link {
+  color: #494848;
+}
+
+.terms {
+  margin: 3% 0 3% 0;
+}
+
+.terms li a {
+  text-decoration: none;
+  color: rgb(112, 112, 112);
+  font-size: 12px;
+}
+
+/*  account menu styling */
+
+.account-menu > ul > li {
+  padding-left: 30px;
+}
+
+.container-social-comments > .social > ul > li > a.icon {
+  background: #ccc9c9;
+  border-radius: 100%;
+  width: 30px;
+  padding: 5px;
+  border: 2px solid #ccc9c9;
+}
+
+.container-social-comments > .social > ul > li > a.icon:hover {
+  background: transparent;
+}
+
+.social > ul {
+  width: 70%;
+}
+
+.social > ul > li {
+  padding-left: 30px;
+  max-height: 40px;
+}
+
+/*  left menu styling */
+
+nav > div.left-menu > ul > li {
+  padding-left: 30px;
+}
+
+nav > div.left-menu > ul > li.category > a {
+  font-weight: bolder;
+}
+
+nav > div.left-menu > ul > li.category > a:hover {
+  text-decoration: underline;
+}
+
+.ny-btn {
+  cursor: pointer;
+  white-space: nowrap;
+  vertical-align: middle;
+  background-color: rgb(86, 123, 149);
+  color: rgb(255, 255, 255);
+  font-size: 11px;
+  line-height: 11px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  border-radius: 3px;
+  transition: all 0.6s ease 0s;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(50, 104, 145);
+  border-image: initial;
+  padding: 11px 12px 8px;
+}
+
+.theory-illustration > h3,
+.theory-illustration > p {
+  text-align: justify;
+  margin-bottom: 30px;
+}
+
+.content-body {
+  line-height: 1.9em;
+}
+
+.content-body > p {
+  font-size: 1.35em;
+  margin-top: 2%;
+  color: #353535;
+}
+
+.theory-illustration {
+  width: 70%;
+  margin: 30px auto;
+}
+
+.theory-illustration > p {
+  color: #646363;
+}
+
+.content > div > .content-header,
+.content > div > .content-body,
+.content .content-footer {
+  width: 40%;
+  flex-direction: column;
+}
+
+.content .content-wrapper {
+  width: 50%;
+  margin-top: 100px;
+}
+
+.f-georgia {
+  font-family: georgia, "times new roman", times, serif;
+}
+
+.illustration-container p {
+  font-family: arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  margin: 0;
+}
+
+.story-image > p {
+  color: #4e4e4e;
+}
+
+.story-image .credit {
+  font-size: 0.8rem;
+}
+
+.additional-links h3 {
+  font-family: helvetica, arial, sans-serif;
+  font-size: 1em;
+  margin: 3% 0 0 0;
+}
+
+.thumbnail-grid {
+  grid-template-columns: 33% 33% 33%;
+  grid-gap: 10px;
+  padding: 0 5% 0 5%;
+}
+
+.thumbnail-grid h3 {
+  grid-row: 1;
+  grid-column: 1/4;
+}
+
+/*  main section styling */
+
+.editors-article h3 {
+  font-size: 0.7rem;
+  line-height: 1rem;
+  align-self: center;
+  padding: 10px;
+  color: #333;
+}
+
+.main-section {
+  flex-wrap: wrap;
+  padding-top: 200px;
+  z-index: -1;
+}
+
+.main-section > .intro {
+  width: 80%;
+}
+
+.main-section > .intro > h3 {
+  width: 60%;
+  text-align: justify;
+  padding: 30px;
+  font-size: 2.2rem;
+  font-style: italic;
+  font-family: "Petrona", serif;
+}
+
+.content > .content-footer > p {
+  font-family: helvetica, arial, sans-serif;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  width: calc(100% - 40px);
+  max-width: 600px;
+  color: rgb(102, 102, 102);
+}
+
+.author,
+.author > * {
+  color: #353535;
+  font-weight: bolder;
+}
+
+.content > .author {
+  font-weight: 800;
+}
+
+.content > .content-header > .publish-date-social {
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.content > .content-header > .publish-date-social > .social > ul > li > a.icon {
+  background: #ccc9c9;
+  border-radius: 100%;
+  width: 30px;
+  padding: 5px;
+  border: 2px solid #ccc9c9;
+}
+
+.content > .content-header > .publish-date-social > .social > ul > li > a.icon:hover {
+  background: transparent;
+}
+
+.content > .content-header > .publish-date-social > .social > ul > li > a {
+  color: #000;
+}
+
+p.caption {
+  width: 80%;
+  margin-top: 20px;
+  color: #494848;
+}
+
+p.caption > .credit {
+  font-size: 0.8em;
+  color: #646363;
+}
+
+.subscribe-text {
+  box-sizing: border-box;
+  max-width: 600px;
+  font-family: helvetica, arial, sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 19px;
+  text-align: center;
+  margin: 25px auto;
+}
+
+.line-top {
+  width: 72px;
+  border-bottom: 1px solid rgb(204, 204, 204);
+}
+
+.line-bottom {
+  width: 72px;
+  border-bottom: 1px solid rgb(204, 204, 204);
+  margin: 18px auto 0;
+}
+
+.subscribe-link {
+  color: rgb(50, 104, 145);
+  text-decoration: none;
+}
+
+.theory-credit {
+  padding-top: 60px;
+  color: #646363;
+}
+
+.illustration-container {
+  overflow: hidden;
+  width: 945px;
+  margin: auto;
+}
+
+.illustration-container .inf-style {
+  font-family: arial, helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 300;
+  color: #000;
+}
+
+.youtube-story-embed > iframe {
+  min-height: 500px;
+  margin: 30px auto;
+  border: 0;
+}
+
+.story-embed-caption {
+  color: #333232;
+}
+
+.story-embed-caption > span {
+  font-size: 0.8rem;
+  color: #4e4c4c;
+}
+
+.container-social-comments {
+  margin-top: 10px;
+}
+
+/* Additional Links */
+
+.additional-links {
+  grid-template-columns: 70% 30%;
+  margin-top: 7%;
+}
+
+.sep-left {
+  margin-left: 5%;
+}
+
+.w-90 {
+  width: 90%;
+}
+
+.separator {
+  background-color: #000;
+  height: 2.3px;
+}
+
+.sep-bottom {
+  margin-top: 5%;
+}
+
+.p_style {
+  font-size: 12px;
+  color: rgb(167, 167, 167);
+}
+
+p.figcaption {
+  float: right;
+}
+
+p.time {
+  justify-content: left;
+}
+
+.popular-link {
+  width: 80%;
+  padding-right: 5%;
+}
+
+.separator-links {
+  background-color: rgb(129, 129, 129);
+  margin: 10% 0 5% 0;
+}
+
+.link {
+  font-size: 1.1em;
+  font-weight: lighter;
+}
+
+.sep-footer {
+  height: 3px;
+  background:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(91, 91, 91, 0.7259278711484594) 50%,
+      rgba(255, 255, 255, 1) 100%
+    );
+  border-radius: 20%;
+  margin: 3% 5% auto;
+}
+
+.mg-auto {
+  margin: 0 auto;
+}
+
+.footer-header {
+  justify-content: space-between;
+}
+
+.separator-vertical {
+  width: 2px;
+  background-color: #000;
+}
+
+.section-links {
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1% 1fr;
+  line-height: 1.5em;
+}
+
+.footer-icon {
+  width: 16px;
+}
+
+/*  display properties */
+
+.d-flex {
+  display: flex;
+}
+
+.d-grid {
+  display: grid;
+}
+
+.d-block {
+  display: block;
+}
+
+/* flex item properties */
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.justify-content-start {
+  justify-content: flex-start;
+}
+
+.justify-content-end {
+  justify-content: flex-end;
+}
+
+.justify-content-space-around {
+  justify-content: space-around;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.align-items-end {
+  align-items: flex-end;
+}
+
+.align-items-start {
+  align-items: flex-start;
+}
+
+.align-self-center {
+  align-self: center;
+}
+
+.d-flex-column {
+  flex-direction: column;
+}
+
+.d-flex-row {
+  flex-direction: row;
+}
+
+.d-flex-1 {
+  flex: 1;
+}
+
+.d-flex-2 {
+  flex: 2;
+}
+
+.d-flex-3 {
+  flex: 3;
+}
+
+/* text colors */
+
+.text-black {
+  color: #000;
+}
+
+/*  positioning */
+
+.position-relative {
+  position: relative;
+}
+
+.position-absolute {
+  position: absolute;
+}
+
+/* floating properties */
+
+.pull-right {
+  float: right;
+}
+
+.pull-left {
+  float: left;
+}
+
+/* text properties */
+
+.text-upper-case {
+  text-transform: uppercase;
+}
+
+/*  editors picks */
+
+.editors-main-content {
+  align-self: center;
+  padding: 10px;
+}
+
+.editors-article img {
+  width: 100%;
+}
+
+.editors-main-content h2 {
+  font-size: 0.8rem;
+  text-align: left;
+  border-bottom: 1px solid #ccc9c9;
+  margin-bottom: 10px;
+}
+
+.border-red {
+  border: 1px solid red;
+}
+
+.arrow-right {
+  background: transparent;
+  border: none;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+/* Fixed footer */
+
+.fixed-footer {
+  position: fixed;
+  height: 10vh;
+  background-color: #fff;
+  left: 0;
+  bottom: 0;
+  text-align: center;
+  color: black;
+}
+
+.fixed-footer-content {
+  display: grid;
+  grid-template-columns: 90% 10%;
+  padding-top: 1.5%;
+}
+
+.f-f-title {
+  justify-content: center;
+  font-family: arial, helvetica, sans-serif;
+  font-size: 1.2em;
+}
+
+.toggle-up {
+  justify-self: start;
+  font-family: arial, helvetica, sans-serif;
+}
+
+.f-left {
+  align-self: flex-start;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-right: 30%;
+}
