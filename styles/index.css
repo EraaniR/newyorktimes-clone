@@ -505,4 +505,5 @@ p.time {
   align-self: flex-start;
   font-weight: bold;
   text-transform: uppercase;
+  padding-right: 30%;
 }
