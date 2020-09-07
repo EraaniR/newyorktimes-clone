@@ -467,3 +467,42 @@ p.time {
 .text-upper-case {
   text-transform: uppercase;
 }
+
+/* Fixed footer*/
+
+.fixed-footer{
+  position: fixed;
+  height: 10vh;
+  background-color: #fff;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  color: black; 
+}
+
+.fixed-footer-content{
+  display: grid;
+  grid-template-columns: 90% 10%;
+  padding-top: 1.5%;
+}
+
+.f-f-title{
+  display: flex;
+  justify-content: center;
+  font-family: arial, helvetica, sans-serif;
+  font-size: 1.2em;
+}
+
+.toggle-up{
+  display: flex;
+  justify-self: start;
+  font-family: arial, helvetica, sans-serif;
+}
+
+.f-left{
+  display: flex;
+  align-self: flex-start;
+  font-weight: bold;
+  text-transform: uppercase;
+}
