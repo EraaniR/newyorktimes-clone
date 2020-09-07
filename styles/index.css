@@ -530,21 +530,6 @@ p.time {
   border: 1px solid red;
 }
 
-.subscribe > .sub-container > .sub-text {
-  flex: 3;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.subscribe > .sub-container > .sub-indicator {
-  flex: 1;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 
 .arrow-right {
   background: transparent;
@@ -572,20 +557,17 @@ p.time {
 }
 
 .f-f-title {
-  display: flex;
   justify-content: center;
   font-family: arial, helvetica, sans-serif;
   font-size: 1.2em;
 }
 
 .toggle-up {
-  display: flex;
   justify-self: start;
   font-family: arial, helvetica, sans-serif;
 }
 
 .f-left {
-  display: flex;
   align-self: flex-start;
   font-weight: bold;
   text-transform: uppercase;
