@@ -12,9 +12,12 @@ ul {
   list-style: none;
 }
 
+.w-100 {
+  width: 100%;
+}
+
 .navbar {
   position: fixed;
-  width: 100%;
   border-bottom: 1px solid #bebbbb;
   z-index: 9999;
   background: white;
@@ -104,9 +107,7 @@ nav > div.left-menu > ul > li.category > a:hover {
   margin-bottom: 30px;
 }
 
-.w-100 {
-  width: 100%;
-}
+
 
 .content-body {
   line-height: 1.9em;
@@ -522,27 +523,11 @@ p.time {
   font-size: 0.8rem;
   text-align: left;
   border-bottom: 1px solid #ccc9c9;
-  width: 100%;
   margin-bottom: 10px;
 }
 
 .border-red {
   border: 1px solid red;
-}
-
-.subscribe {
-  width: 100%;
-  position: fixed;
-  bottom: 0;
-  height: 65px;
-  background: rgb(51, 51, 51);
-  color: white;
-}
-
-.subscribe > .sub-container {
-  display: flex;
-  height: 100%;
-  width: 100%;
 }
 
 .subscribe > .sub-container > .sub-text {
@@ -576,7 +561,6 @@ p.time {
   background-color: #fff;
   left: 0;
   bottom: 0;
-  width: 100%;
   text-align: center;
   color: black;
 }
